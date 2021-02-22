@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'> 
+  
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<style>
+	#container-floating{
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 30px;
+  right: 30px;
+  z-index: 50px;
+}
+          #floating-button{
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: #ff5a00;
+  position: fixed;
+  right: 10px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px #666;
+}
+
+            .floating-text {
+               position: absolute;
+    top: 10px;
+    left: 12px;
+    font-size: 12px;
+    width: 40px;
+    line-height: 13px;
+    text-align: center;
+    color:#fff;
+            }
+
+
+.floating-plus{
+  color: white;
+  position: absolute;
+  top: 0;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 46px;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  animation: plus-out 0.3s;
+  transition: all 0.3s;
+}
+.nh-fixed-btn {
+    position: fixed;
+    bottom: 80px;
+    z-index: 999;
+    right: 20px;
+    height: 59.03px;
+    width: 171px;
+    border-radius: 100px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 0 2px 4px 0 rgba(123,123,123,.31);
+    cursor: pointer;
+	}
+	.nh-fixed-btn img {
+    float: left;
+    width: 48px;
+    margin-right: 10px;
+    height: 48px;
+}
+.nh-fixed-btn img {
+    float: left;
+    width: 48px;
+    margin-right: 10px;
+    height: 48px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.me {
+  width: 400px;
+  margin: 90px auto;
+}
+.me p,
+.me h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.me p {
+  font-weight: 200;
+}
+.me span {
+  font-weight: bold;
+}
+.social {
+  position: fixed;
+  top: 20px;
+}
+.social ul {
+  padding: 0px;
+  -webkit-transform: translate(-270px, 0);
+  -moz-transform: translate(-270px, 0);
+  -ms-transform: translate(-270px, 0);
+  -o-transform: translate(-270px, 0);
+  transform: translate(-270px, 0);
+}
+.social ul li {
+  display: block;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.36);
+  width: 300px;
+  text-align: right;
+  padding: 10px;
+  -webkit-border-radius: 0 30px 30px 0;
+  -moz-border-radius: 0 30px 30px 0;
+  border-radius: 0 30px 30px 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li:hover {
+  -webkit-transform: translate(110px, 0);
+  -moz-transform: translate(110px, 0);
+  -ms-transform: translate(110px, 0);
+  -o-transform: translate(110px, 0);
+  transform: translate(110px, 0);
+  background: rgba(255, 255, 255, 0.4);
+}
+.social ul li:hover a {
+  color: #000;
+}
+.social ul li:hover i {
+  color: #fff;
+  background: red;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li i {
+  margin-left: 10px;
+  color: #000;
+  background: #fff;
+  padding: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  background: #ffffff;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+body {
+  background: #25343F;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+</style>
+	</head>
+
+	<body>
+<button style="
+    margin-left: 500px;
+    height: 42px;
+    width: 166px;
+"> <a href="file:///C:/Users/VIKASH/Desktop/html%20project/home%20page.html" style="
+    color:  black;
+">HOME</a></button>
+
+		<div id="container-floating" style="z-index:1000;">
+            <div id="floating-button" style="bottom: 350px;">
+                <a href="##" title="Take Career Test">
+                    <p class="floating-plus"><i class="fa fa-pie-chart"></i></p>
+                    <p class="floating-text">
+                        Career Test
+                    </p>
+                </a>
+            </div>
+            <div id="floating-button" style="bottom: 270px;">
+                <a href="##" title="Talk To Career Counsellor">
+                    <p class="floating-plus"><i class="fa fa-phone"></i></p>
+                    <p class="floating-text" style="left: 8px;">
+                        Counsellor Call
+                    </p>
+                </a>
+            </div>
+            <div id="floating-button" style="bottom: 190px;">
+                <a href="##" title="Donwload Career E-Book">
+                    <p class="floating-plus"><i class="fa fa-book"></i></p>
+                    <p class="floating-text">
+                        E-Book
+                    </p>
+                </a>
+            </div>
+            <div id="floating-button" style="bottom: 110px;">
+                <a href="##" title="Walk-in for Counselling in Delhi">
+                    <p class="floating-plus"><i class="fa fa-group"></i></p>
+                    <p class="floating-text">
+                        Face To Face
+                    </p>
+                </a>
+            </div>
+
+			
+			<div class="nh-fixed-btn">
+<img src="https://d1hny4jmju3rds.cloudfront.net/Avatar.png">
+<div class="nh-txt">need help ?</div>
+</div>
+        </div>
+		
+		
+		
+		<div class="column half">
+            
+            <div class="box">
+  <div class="box-heading">
+    <h3>Subject Guides</h3>
+  </div>
+  <div class="box-content"><p>Our subject guides include information on studying, courses, careers, and much more:</p>
+<ul>
+<li><a href="/courses/accounting-finance/" title="Accounting &amp; Finance">Accounting &amp; Finance</a></li>
+<li><a href="/courses/aeronautical-manufacturing-engineering/">Aeronautical &amp; Manufacturing Engineering</a></li>
+<li><a href="/courses/agriculture-forestry/" title="Guide to studying Agriculture &amp; Forestry">Agriculture &amp; Forestry</a></li>
+<li><a href="/courses/american-studies/" title="Guide to Studying American Studies">American Studies</a></li>
+<li><a href="/courses/anatomy-physiology/" title="Guide to Studying Anatomy &amp; Physiology">Anatomy &amp; Physiology</a></li>
+<li><a href="/courses/anthropology/" title="Guide to Studying Anthropology">Anthropology</a></li>
+<li><a href="/courses/archaeology/">Archaeology</a></li>
+<li><a href="/courses/architecture/">Architecture</a></li>
+<li><a href="/courses/art-design/" title="Art &amp; Design">Art &amp; Design</a></li>
+<li><a href="/courses/aural-oral-sciences/">Aural &amp; Oral Sciences</a></li>
+<li><a href="/courses/biological-sciences/">Biological Sciences</a></li>
+<li><a href="/courses/building/" title="Guide to studying Building">Building</a></li>
+<li><a href="/courses/business-management-studies/">Business &amp; Management Studies</a></li>
+<li><a href="/courses/celtic-studies">Celtic Studies</a></li>
+<li><a href="/courses/chemical-engineering/">Chemical Engineering</a></li>
+<li><a href="/courses/chemistry/">Chemistry</a></li>
+<li><a href="/courses/civil-engineering/">Civil Engineering</a></li>
+<li><a href="/courses/classics-ancient-history/" title="Classics &amp; Ancient History">Classics &amp; Ancient History</a></li>
+<li><a href="/courses/communications-and-media-studies/">Communication &amp; Media Studies</a></li>
+<li><a href="/courses/complementary-medicine/">Complementary Medicine</a></li>
+<li><a href="/courses/computer-science/" title="Computer Science">Computer Science</a></li>
+<li><a href="/courses/counselling/">Counselling</a></li>
+<li><a href="/courses/creative-writing/" title="Guide to studying Creative Writing">Creative Writing</a></li>
+<li><a href="/courses/criminology/">Criminology</a></li>
+<li><a href="/courses/dentistry/">Dentistry</a></li>
+<li><a href="/courses/drama,-dance-cinematics/">Drama, Dance &amp; Cinematics</a></li>
+<li><a href="/courses/east-and-south-asian-studies/">East &amp; South Asian Studies</a></li>
+<li><a href="/courses/economics/">Economics</a></li>
+<li><a href="/courses/education/" title="Education">Education</a></li>
+<li><a href="/courses/electrical-electronic-engineering/">Electrical &amp; Electronic Engineering</a></li>
+<li><a href="/courses/english/">English</a></li>
+<li><a href="/courses/fashion/">Fashion</a></li>
+<li><a href="/courses/film-making/">Film Making</a></li>
+<li><a href="/courses/food-science/">Food Science</a></li>
+<li><a href="/courses/forensic-science/" title="Guide to studying Forensic Science">Forensic Science</a></li>
+<li><a href="/courses/french/">French</a></li>
+<li><a href="/courses/geography-environmental-science/">Geography &amp; Environmental Sciences</a></li>
+<li><a href="/courses/geology/">Geology</a></li>
+<li><a href="/courses/general-engineering/">General Engineering</a></li>
+<li><a href="/courses/german/" title="Guide to Studying German">German</a></li>
+<li><a href="/courses/history/">History</a></li>
+<li><a href="/courses/history-of-art,-architecture-design/" title="Guide to Studying the History of Art, Architecture and Design">History of Art, Architecture &amp; Design</a></li>
+<li><a href="/courses/hospitality,-leisure,-recreation-tourism/" title="Guide to Studying Hospitality, Leisure, Recreation and Tourism">Hospitality, Leisure, Recreation &amp; Tourism</a></li>
+<li><a href="/courses/iberian-languages/" title="Guide to Studying Hispanic Studies">Iberian Languages/Hispanic Studies</a></li>
+<li><a href="/courses/italian/">Italian</a></li>
+<li><a href="/courses/land-property-management/" title="Guide to Studying Land and Property Management">Land &amp; Property Management</a></li>
+<li><a href="/courses/law/">Law</a></li>
+<li><a href="/courses/librarianship-information-management/">Librarianship &amp; Information Management</a></li>
+<li><a href="/courses/linguistics/" title="Guide to Studying Linguistics">Linguistics</a></li>
+<li><a href="/courses/marketing/">Marketing</a></li>
+<li><a href="/courses/materials-technology/">Materials Technology</a></li>
+<li><a href="/courses/mathematics/" title="Guide to Studying Mathematics">Mathematics</a></li>
+<li><a href="/courses/mechanical-engineering/">Mechanical Engineering</a></li>
+<li><a href="/courses/medical-technology/">Medical Technology</a></li>
+<li><a href="/courses/medicine/">Medicine</a></li>
+<li><a href="/courses/middle-eastern-african-studies/">Middle Eastern &amp; African Studies</a></li>
+<li><a href="/courses/music/" title="Music">Music</a></li>
+<li><a href="/courses/nursing/">Nursing</a></li>
+<li><a href="/courses/occupational-therapy/">Occupational Therapy</a></li>
+<li><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Optometry, Ophthalmology &amp; Orthoptics&quot;}" data-sheets-userformat="{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}"><a href="/courses/optometry,-ophthalmology-orthoptics/" title="Optometry, Ophthalmology &amp; Orthoptics">Optometry, Ophthalmology &amp; Orthoptics</a></span></li>
+<li><a href="/courses/pharmacology-pharmacy/">Pharmacology &amp; Pharmacy</a></li>
+<li><a href="/courses/philosophy/">Philosophy</a></li>
+<li><a href="/courses/physics-astronomy/" title="Guide to Studying Physics and Astronomy">Physics and Astronomy</a></li>
+<li><a href="/courses/physiotherapy/">Physiotherapy</a></li>
+<li><a href="/courses/politics/">Politics</a></li>
+<li><a href="/courses/psychology/">Psychology</a></li>
+<li><a href="/courses/robotics/">Robotics</a></li>
+<li><a href="/courses/russian-east-european-languages/" title="Guide to Studying Russian and East European Languages">Russian &amp; East European Languages</a></li>
+<li><a href="/courses/social-policy/">Social Policy</a></li>
+<li><a href="/courses/social-work/">Social Work</a></li>
+<li><a href="/courses/sociology/">Sociology</a></li>
+<li><a href="/courses/sports-science/">Sports Science</a></li>
+<li><a href="/courses/theology-religious-studies/">Theology &amp; Religious Studies</a></li>
+<li><a href="/courses/town-country-planning-and-landscape-design/">Town &amp; Country Planning and Landscape Design</a></li>
+<li><a href="/courses/veterinary-medicine/" title="Veterinary Medicine">Veterinary Medicine</a></li>
+<li><a href="/courses/youth-work/" title="Youth Work">Youth Work</a></li>
+</ul></div>
+</div>
+<div class="box">
+  <div class="box-heading">
+    <h3>Advice</h3>
+    <p class="box-intro">More on choosing the right course</p>
+  </div>
+  <div class="box-content"><ul>
+<li><a href="/courses/choosing-a-course/" title="Choosing a Course">Choosing a course</a></li>
+<li><a href="/courses/choosing-a-course/which-subject/">Which subject area?</a></li>
+<li><a href="/courses/choosing-a-course/course-options/">Course options</a></li>
+<li><a href="/courses/choosing-a-course/career-opportunities/">Career opportunities</a></li>
+<li><a href="/courses/choosing-a-course/why-study-your-chosen-subject/">Why study your chosen subject?</a></li>
+</ul></div>
+</div>
+            
+        </div>
+		
+		
+		
+<nav class="social">
+          <ul>
+              <li><a href="https://twitter.com/gian_michelle">Twitter <i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://facebook.com/">Facebook <i class="fa fa-facebook"></i></a></li>
+              <li><a href="http://dribbble.com/gian_michelle">Dribbble <i class="fa fa-dribbble"></i></a></li>
+              <li><a href="http://behance.net/gianm">Behance <i class="fa fa-behance"></i></a></li>
+          </ul>
+      </nav>
+        
+		
+		
+	</body>
+
+</html>
